@@ -1,3 +1,3 @@
 # adivinhacao.py
-Programa simples para aprofundar os conhecimentos em Python
+Programa simples para aprofundar os conhecimentos em Python (Curso Alura)
 - Adivinhe o número secreto do programa!
