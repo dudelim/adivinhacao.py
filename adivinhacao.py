@@ -1,8 +1,11 @@
+import random
+
 print("------------------------------------")
 print("Bem vindo(a) ao jogo de adivinhação!")
 print("------------------------------------")
 
-numero_secreto = 16
+numero_random = round(random.random() * 100)
+int (numero_random)
 total_tentativas = 3
 rodada = 1
 
@@ -13,9 +16,9 @@ while (rodada <= total_tentativas):
   print("Número digitado: ", chute_str)
   chute = int(chute_str)
 
-  acertou = numero_secreto == chute
-  maior = chute > numero_secreto
-  menor = chute < numero_secreto
+  acertou = numero_random == chute
+  maior = chute > numero_random
+  menor = chute < numero_random
 
   rodada = rodada + 1
 
