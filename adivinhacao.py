@@ -21,6 +21,7 @@ while (rodada <= total_tentativas):
 
   if (acertou):
     print("Você acertou!")
+    break
   else:
     if (maior):
       print("Você errou! O seu chute foi maior que o número secreto.")
@@ -28,3 +29,4 @@ while (rodada <= total_tentativas):
       print("Você errou! O seu chute foi menor que o número secreto.")
 
 print("Fim do jogo")
+
